@@ -15,7 +15,7 @@ a {
 
 .Hero {
   background: url("../images/wallpaper3.jpg");
-  height: 920px;
+  height: 100vh;
   background-size: cover;
   background-position: center;
 }
@@ -52,4 +52,18 @@ p {
 
 .Hero span {
   color: #9de1e5;
+}
+
+@media (max-width: 640px) {
+  .HeroGroup {
+    padding: 100px 20px;
+  }
+
+  .Hero h1 {
+    font-size: 3rem;
+  }
+
+  .Hero p {
+    font-size: 1.5rem;
+  }
 }
