@@ -16,7 +16,7 @@ const IndexPage = () => (
           Complete courses about the best tools and design systems. Prototype and build apps with React and Swift.
         </p>
         <Link className="HeroBtn" to="/about/">
-          Watch the video &rarr;
+          Find out more
         </Link>
       </div>
     </div>
